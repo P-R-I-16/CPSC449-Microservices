@@ -1,0 +1,2 @@
+api: uvicorn --port 5000 validate:app --reload
+api: uvicorn --port 8000 compare:app --reload
